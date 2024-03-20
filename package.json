@@ -1,0 +1,23 @@
+{
+  "name": "configurationfromscratchportfolioproject",
+  "version": "1.0.0",
+  "description": "This is a portfolio project where I learn to use all of the tool's configrations directly instead of using some starter app to configure everything for me.  It will have typescript, react, potentially scss, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn-peery/ConfigurationFromScratchPortfolioProject.git"
+  },
+  "keywords": [
+    "React",
+    "TypeScript"
+  ],
+  "author": "Shawn Peery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawn-peery/ConfigurationFromScratchPortfolioProject/issues"
+  },
+  "homepage": "https://github.com/shawn-peery/ConfigurationFromScratchPortfolioProject#readme"
+}
