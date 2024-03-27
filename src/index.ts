@@ -8,7 +8,19 @@ const component = () => {
   element.classList.add("hello");
 
   // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack", "TypeScript!"], " ");
+  element.innerHTML = _.join(
+    [
+      "Hello",
+      "webpack",
+      "TypeScript!",
+      "Html",
+      "Disk",
+      "HMR",
+      "Not Working",
+      "Test",
+    ],
+    " "
+  );
 
   // Add the image to our existing div.
 
