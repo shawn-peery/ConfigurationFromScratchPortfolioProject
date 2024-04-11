@@ -36,7 +36,7 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   plugins: [
-    new HtmlWebpackPlugin({ alwaysWriteToDisk: true }),
+    new HtmlWebpackPlugin({ alwaysWriteToDisk: true, meta: {} }),
     new HtmlWebpackHarddiskPlugin(),
   ],
 };
