@@ -1,28 +1,19 @@
+import "./makeGlobalHtmxFile";
 import "./style.scss";
 import * as _ from "lodash";
 
 import calendar from "../res/calendar.png";
 import printMe from "./print";
 
-const component = () => {
-  const element = document.createElement("div");
-  element.classList.add("hello");
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack", "HMR"], " ");
-
-  // Add the image to our existing div.
-
-  const myIcon = new Image();
-
-  myIcon.src = calendar;
-
-  element.appendChild(myIcon);
-
-  return element;
+const button = () => {
+  const button = document.createElement("button");
+  button.setAttribute("hx-post", "/clicked");
+  button.setAttribute("hx-swap", "outerHTML");
+  button.innerHTML = "Submit";
+  return button;
 };
 
-document.body.appendChild(component());
+document.body.appendChild(button());
 
 if (module.hot) {
   module.hot.accept("./print.js", function () {

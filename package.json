@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/shawn-peery/ConfigurationFromScratchPortfolioProject#readme",
   "dependencies": {
+    "htmx.org": "^1.9.11",
     "lodash": "^4.17.21",
     "moment": "^2.30.1"
   },
